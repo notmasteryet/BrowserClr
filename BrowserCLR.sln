@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Dev", "Web Sites\Dev\", "{F6A46358-1656-4A37-A579-6BF5DAEE350D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/BrowserCLRDev"
+		Debug.AspNetCompiler.PhysicalPath = "Web Sites\Dev\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Dev\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BrowserCLRDev"
+		Release.AspNetCompiler.PhysicalPath = "Web Sites\Dev\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Dev\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1186"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{74CF6DFD-BD79-41E9-8209-0998E740D2D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A46358-1656-4A37-A579-6BF5DAEE350D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A46358-1656-4A37-A579-6BF5DAEE350D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A46358-1656-4A37-A579-6BF5DAEE350D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A46358-1656-4A37-A579-6BF5DAEE350D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{74CF6DFD-BD79-41E9-8209-0998E740D2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CF6DFD-BD79-41E9-8209-0998E740D2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CF6DFD-BD79-41E9-8209-0998E740D2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CF6DFD-BD79-41E9-8209-0998E740D2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
